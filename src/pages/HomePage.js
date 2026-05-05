@@ -29,7 +29,7 @@ const HomePage = () => {
                         </Col>
                         <Col lg={6} className="d-none d-lg-block">
                             <img
-                                src="/images/image.png"
+                                src={process.env.PUBLIC_URL + '/images/image.png'}
                                 alt="Головна будівля"
                                 className="img-fluid rounded shadow-lg"
                             />

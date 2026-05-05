@@ -7,7 +7,7 @@ const DoctorCard = ({ doctor, onBookClick }) => {
       <div style={{ position: 'relative' }}>
         <Card.Img
           variant="top"
-          src={doctor.photo}
+          src={doctor.photo?.startsWith('/') ? process.env.PUBLIC_URL + doctor.photo : doctor.photo}
           alt={doctor.name}
           style={{ height: '200px', objectFit: 'cover' }}
         />

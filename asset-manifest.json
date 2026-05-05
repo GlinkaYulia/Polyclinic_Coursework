@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/css/main.832bdeee.css",
+    "main.js": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/js/main.3e48243a.js",
+    "static/js/71.ccffbb98.chunk.js": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/js/71.ccffbb98.chunk.js",
+    "static/js/7.ba06918c.chunk.js": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/js/7.ba06918c.chunk.js",
+    "static/js/610.ab0b8137.chunk.js": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/js/610.ab0b8137.chunk.js",
+    "static/js/686.d42409d5.chunk.js": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/js/686.d42409d5.chunk.js",
+    "static/js/894.5f151fe8.chunk.js": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/js/894.5f151fe8.chunk.js",
+    "static/js/661.d357623d.chunk.js": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/js/661.d357623d.chunk.js",
+    "static/js/169.dc57a0f2.chunk.js": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/js/169.dc57a0f2.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/index.html",
+    "main.832bdeee.css.map": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/css/main.832bdeee.css.map",
+    "main.3e48243a.js.map": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/js/main.3e48243a.js.map",
+    "71.ccffbb98.chunk.js.map": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/js/71.ccffbb98.chunk.js.map",
+    "7.ba06918c.chunk.js.map": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/js/7.ba06918c.chunk.js.map",
+    "610.ab0b8137.chunk.js.map": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/js/610.ab0b8137.chunk.js.map",
+    "686.d42409d5.chunk.js.map": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/js/686.d42409d5.chunk.js.map",
+    "894.5f151fe8.chunk.js.map": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/js/894.5f151fe8.chunk.js.map",
+    "661.d357623d.chunk.js.map": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/js/661.d357623d.chunk.js.map",
+    "169.dc57a0f2.chunk.js.map": "/https,://github.com/GlinkaYulia/Polyclinic_Coursework.git/static/js/169.dc57a0f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.832bdeee.css",
+    "static/js/main.3e48243a.js"
+  ]
+}

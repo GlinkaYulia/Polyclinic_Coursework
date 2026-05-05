@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+:root {
+  --bs-primary: #1a365d;
+  --bs-warning: #c59b27;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.text-primary {
+  color: #1a365d !important;
+}
+.text-warning {
+  color: #c59b27 !important;
+}
+
+.btn-primary {
+  background-color: #1a365d !important;
+  border-color: #1a365d !important;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #11243e !important;
+  border-color: #11243e !important;
+}
+
+.btn-outline-primary {
+  color: #1a365d !important;
+  border-color: #1a365d !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: #1a365d !important;
+  color: #ffffff !important;
+}
+
+.btn-warning {
+  background-color: #c59b27 !important;
+  border-color: #c59b27 !important;
+  color: #ffffff !important;
+}
+
+.btn-warning:hover,
+.btn-warning:focus {
+  background-color: #a37f1d !important;
+  border-color: #a37f1d !important;
+}
+
+.bg-primary {
+  background-color: #1a365d !important;
+}
+.bg-warning {
+  background-color: #c59b27 !important;
+  color: #ffffff !important;
 }

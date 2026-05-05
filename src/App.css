@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+
+:root {
+  --bs-primary: #1a365d;
+  --bs-warning: #c59b27;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 1. Текст */
+.text-primary {
+  color: #1a365d !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-warning {
+  color: #c59b27 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-primary {
+  background-color: #1a365d !important;
+  border-color: #1a365d !important;
+  color: #ffffff !important;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #11243e !important;
+  border-color: #11243e !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(26, 54, 93, 0.2) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-outline-primary {
+  color: #1a365d !important;
+  border-color: #1a365d !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  background-color: #1a365d !important;
+  color: #ffffff !important;
+}
+
+.btn-warning {
+  background-color: #c59b27 !important;
+  border-color: #c59b27 !important;
+  color: #ffffff !important;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active {
+  background-color: #a37f1d !important;
+  border-color: #a37f1d !important;
+  color: #ffffff !important;
+}
+
+.bg-primary {
+  background-color: #1a365d !important;
+}
+
+.bg-warning {
+  background-color: #c59b27 !important;
+  color: #ffffff !important;
 }

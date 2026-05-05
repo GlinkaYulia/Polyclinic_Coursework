@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Polyclinic_Coursework/static/css/main.0aa87c16.css",
-    "main.js": "/Polyclinic_Coursework/static/js/main.85507450.js",
-    "static/js/71.ccffbb98.chunk.js": "/Polyclinic_Coursework/static/js/71.ccffbb98.chunk.js",
-    "static/js/7.ba06918c.chunk.js": "/Polyclinic_Coursework/static/js/7.ba06918c.chunk.js",
+    "main.js": "/Polyclinic_Coursework/static/js/main.dc6c1d2e.js",
+    "static/js/71.5964223f.chunk.js": "/Polyclinic_Coursework/static/js/71.5964223f.chunk.js",
+    "static/js/7.927abf15.chunk.js": "/Polyclinic_Coursework/static/js/7.927abf15.chunk.js",
     "static/js/610.ab0b8137.chunk.js": "/Polyclinic_Coursework/static/js/610.ab0b8137.chunk.js",
     "static/js/686.d42409d5.chunk.js": "/Polyclinic_Coursework/static/js/686.d42409d5.chunk.js",
     "static/js/894.5f151fe8.chunk.js": "/Polyclinic_Coursework/static/js/894.5f151fe8.chunk.js",
@@ -13,9 +13,9 @@
     "static/media/bootstrap-icons.woff2?": "/Polyclinic_Coursework/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "index.html": "/Polyclinic_Coursework/index.html",
     "main.0aa87c16.css.map": "/Polyclinic_Coursework/static/css/main.0aa87c16.css.map",
-    "main.85507450.js.map": "/Polyclinic_Coursework/static/js/main.85507450.js.map",
-    "71.ccffbb98.chunk.js.map": "/Polyclinic_Coursework/static/js/71.ccffbb98.chunk.js.map",
-    "7.ba06918c.chunk.js.map": "/Polyclinic_Coursework/static/js/7.ba06918c.chunk.js.map",
+    "main.dc6c1d2e.js.map": "/Polyclinic_Coursework/static/js/main.dc6c1d2e.js.map",
+    "71.5964223f.chunk.js.map": "/Polyclinic_Coursework/static/js/71.5964223f.chunk.js.map",
+    "7.927abf15.chunk.js.map": "/Polyclinic_Coursework/static/js/7.927abf15.chunk.js.map",
     "610.ab0b8137.chunk.js.map": "/Polyclinic_Coursework/static/js/610.ab0b8137.chunk.js.map",
     "686.d42409d5.chunk.js.map": "/Polyclinic_Coursework/static/js/686.d42409d5.chunk.js.map",
     "894.5f151fe8.chunk.js.map": "/Polyclinic_Coursework/static/js/894.5f151fe8.chunk.js.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.0aa87c16.css",
-    "static/js/main.85507450.js"
+    "static/js/main.dc6c1d2e.js"
   ]
 }

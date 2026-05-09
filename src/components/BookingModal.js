@@ -100,7 +100,7 @@ const BookingModal = ({ show, handleClose, doctor }) => {
               <Form.Control
                 as="textarea"
                 rows={2}
-                placeholder="Скарги або побажання..."
+                placeholder=""
                 value={notes}
                 onChange={(e) => setNotes(e.target.value)}
               />

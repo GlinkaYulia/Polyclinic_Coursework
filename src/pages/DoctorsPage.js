@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Form, Spinner, Alert, Pagination } from 'react-bootstrap';
+import BookingModal from '../components/BookingModal';
 import useFirestore from '../hooks/useFirestore';
 import DoctorCard from '../components/DoctorCard';
 
@@ -11,6 +12,14 @@ const DoctorsPage = () => {
 
     const [currentPage, setCurrentPage] = useState(1);
     const doctorsPerPage = 6;
+
+    const [showModal, setShowModal] = useState(false);
+    const [selectedDoctor, setSelectedDoctor] = useState(null);
+
+    const handleBookClick = (doctor) => {
+        setSelectedDoctor(doctor);
+        setShowModal(true);
+    };
 
     if (loading) {
         return (
@@ -85,7 +94,7 @@ const DoctorsPage = () => {
                     <Row className="gy-4 mb-4">
                         {currentDoctors.map(doctor => (
                             <Col key={doctor.id} md={6} lg={4}>
-                                <DoctorCard doctor={doctor} />
+                                <DoctorCard doctor={doctor} onBookClick={handleBookClick} />
                             </Col>
                         ))}
                     </Row>
@@ -115,8 +124,12 @@ const DoctorsPage = () => {
                     )}
                 </>
             )}
+            <BookingModal
+                show={showModal}
+                handleClose={() => setShowModal(false)}
+                doctor={selectedDoctor}
+            />
         </Container>
     );
 };
-
 export default DoctorsPage;
